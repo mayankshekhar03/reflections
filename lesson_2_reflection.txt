@@ -16,6 +16,7 @@ remember that that file needs to be commited so we commit after one logical chan
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+git status - to see which files are in staging area
 git branch - lists all the branches
 git branch argument1 - creates a branch
 
