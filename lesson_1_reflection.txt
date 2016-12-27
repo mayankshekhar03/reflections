@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+    diff command helps me to find exactly where the changes were made between two 
+    identical files. (git diff)
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+    Having entire history of a file helps a programmer in many ways like if he/she
+    finds a bug he can see the history of the file to know exactly when the bug was 
+    introduced. (git log)
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here
+    Manual creation of commits is good because the programmer has the power to
+    commit changes only when one logical change in introduced to a file which results 
+    in less redundancy. On the other hand if the programming is being done in collaborative
+    environment then it is possible that a programmer may not even choose to commit
+    changes he made.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+    Most of the times in programming files can be interelated to each other or in
+    other words dependent on each other so it is necessary to keep track of changes made 
+    in all files at a given time.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+    git log gives the whole history of commits of a repository whereas git diff can
+    give the changes that were made to a file.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+    Version control acts as a back up for all the hardwork that a programmer went
+    while working on a repository, if a programmer decides to make a big change to 
+    a file he would not worry about breaking it because he can always recover it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+    For my web development project.
