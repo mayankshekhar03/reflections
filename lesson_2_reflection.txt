@@ -1,0 +1,28 @@
+What happens when you initialize a repository? Why do you need to do it?
+git init is the command used to initialise a repository. When a repo is initialised 
+a .git file is created which stores all the commits.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+git add file_name is the command used to add a file to staging area. In staging
+area all the files which need to be commited are stored and then the changes are
+made followed by final commit.
+git commit command is used to finally commit the files in staging area to repo.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+When we add file(s) to the staging area and start editing it we sub consiously
+remember that that file needs to be commited so we commit after one logical change.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+git branch - lists all the branches
+git branch argument1 - creates a branch
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
