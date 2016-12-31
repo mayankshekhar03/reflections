@@ -16,6 +16,6 @@ git show commit_id = difference between commit_id and its parent
 git branch -d coins = delete branch named coins
 git log -n 1 - latest commit
 git remote - to see the list of remotes
-git remote add origin github_url - to add local repo to an empty repo on github
+git remote add origin githubrepo_url - to add local repo to an empty repo on github
 git remote -v - more detailed (verbose) list of remotes
-git push remote_name branch_name - to sync github repo remote_name with local branch
+git push remote_name(origin) branch_name(master) - to sync github repo remote_name with local branch
