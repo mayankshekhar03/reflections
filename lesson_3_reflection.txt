@@ -14,7 +14,11 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    fork can be used when I want to copy someone elses work to my repositories.
+    clone is used when I want to make a copy of exiting repo on GitHub or
+    locally.
+    braches is used when I want to introduce a new experimental feature into the
+    program.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
