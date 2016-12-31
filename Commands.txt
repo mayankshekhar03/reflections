@@ -19,5 +19,7 @@ git remote - to see the list of remotes
 git remote add origin githubrepo_url - to add local repo to an empty repo on github
 git remote -v - more detailed (verbose) list of remotes
 git push remote_name(origin) branch_name(master) - to sync github repo remote_name with local branch
-git pull origin master - to pull any new commits on github reo to the local machine
+git pull origin master - to pull any new commits on github repo to the local machine
 bash sarah_change.sh https://github.com/mayankshekhar03/recipes.git - simulate sarah's changes to the recipes repo
+git fetch - used when different changes have been made in github and locally and we want to review what changes were made
+		to the github we use fetch command, it creates a new branch for the change which was made in github
