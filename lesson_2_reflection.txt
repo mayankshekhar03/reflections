@@ -16,14 +16,22 @@ remember that that file needs to be commited so we commit after one logical chan
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-git status - to see which files are in staging area
-git branch - lists all the branches
-git branch argument1 - creates a branch
+Whenever I want to introduce a new experimental feature to my program and I know that
+it may introduce a bug to the main program then I can create a saperate branch for the
+experimental feature which doesn't affect the main program code.
 
 How do the diagrams help you visualize the branch structure?
+Diagrams helps us to visualise which commit is the parent of whom. This way we can know
+what is the status of all the branches made so far.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+By merging two branches we combine files from both the branches into one branch and 
+the lines of code are adjusted accordingly.
+
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+Automatic merging works only when there is no conflict within lines of code.
+When there are no conflicts the automatic merging is easy and doesn't require
+manual merging.
