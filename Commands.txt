@@ -1,0 +1,19 @@
+Commmands:
+git init - inisialize a repo
+git status - to see which files are in staging area
+git add file_name - add a file to staging area
+git commit - commit the file in the staging area
+git branch - lists all the branches
+git branch argument - creates a branch named argument
+git checkout argument - switches to argument
+git log --graph --oneline branchesnames(optional) - to visualise branches
+git diff - diff between staging area and working directory
+git diff --staged - diff between staging area and last commit in repo.
+git reset --hard - removes any changes in any domain
+git gc - manual garbage collection
+git merge branch1 branch2 - merge branch2 into branch1
+git show commit_id = difference between commit_id and its parent
+git branch -d coins = delete branch named coins
+git log -n 1 - latest commit
+git remote - to see the list of remotes
+git remote add origin github_url - to add local repo to an empty repo on github
