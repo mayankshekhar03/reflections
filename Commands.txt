@@ -21,6 +21,10 @@ git remote -v - more detailed (verbose) list of remotes
 git push remote_name(origin) branch_name(master) - to sync github repo remote_name with local branch
 git pull origin master - to pull any new commits on github repo to the local machine
 bash sarah_change.sh https://github.com/mayankshekhar03/recipes.git - simulate sarah's changes to the recipes repo
-git fetch origin- used when different changes have been made in github and locally and we want to review 
-			what changes were made
-		to the github we use fetch command, it creates a new branch for the change which was made in github
+git fetch origin - used when different changes have been made in github and locally and we want to review 
+			what changes were made to the github we use fetch command, it creates a new branch for the change which was made in github na dif we find it useful we merge them and push changes to the github
+
+not commands:
+fork - when we want to clone someone elses repository to our github account
+pull request - when we want suggestion for a commit we make a new branch locally and make changes and push it to the github
+				then we select pull request to get suggestions from other collaborators
