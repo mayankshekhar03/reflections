@@ -17,3 +17,4 @@ git branch -d coins = delete branch named coins
 git log -n 1 - latest commit
 git remote - to see the list of remotes
 git remote add origin github_url - to add local repo to an empty repo on github
+git remote -v - more detailed (verbose) list of remotes
