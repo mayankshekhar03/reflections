@@ -1,4 +1,6 @@
 Commmands:
+mkdir name - create a directory
+touch file.extention - create a file
 git init - inisialize a repo
 git status - to see which files are in staging area
 git add file_name - add a file to staging area
